@@ -5,11 +5,11 @@ Live site link [Best Bike](https://best-bikee.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Technowlogy used
-*React as a Javascript library.
-*TailWind CSS as a CSS Framwork.
-*React Router for Navigation.
-*Recharts for creating the charts.
+## Technology used
+* React as a Javascript library.
+* TailWind CSS as a CSS Framwork.
+* React Router for Navigation.
+* Recharts for creating the charts.
 
 ## Available Scripts
 
