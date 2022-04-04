@@ -11,6 +11,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * React Router for Navigation.
 * Recharts for creating the charts.
 
+## App features
+* Fast Loading
+* Super Responsive
+* No-cuttong edge
+* Clean and minimalist design
+* 404 included
+* Active route indication
+* And many more...
+
+
 ## Available Scripts
 
 In the project directory, you can run:
