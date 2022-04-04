@@ -13,8 +13,10 @@
   margin: 0 auto;
 }
 
-nav>div>a {
-  padding-bottom: 20px;
+.header-nav-div-a {
+  padding: 0 10px 15px 10px;
+  display: block;
+  border-bottom: 2px solid gray;
 }
 
 @media all and (max-width: 502px) {

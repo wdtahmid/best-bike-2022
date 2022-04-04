@@ -6,8 +6,12 @@ function CustomLink({ children, to, ...props }) {
 
     return (
         <div>
-            <Link
-                style={{ textDecoration: match ? "underline" : "none" }}
+            <Link className="header-nav-div-a"
+                style={{
+                    paddingBottom: match ? 15 : 15,
+                    borderBottomColor: match ? "blue" : "gray",
+                    color: match ? "blue" : "black"
+                }}
                 to={to}
                 {...props}
             >
