@@ -1,3 +1,4 @@
+
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
 function CustomLink({ children, to, ...props }) {
@@ -10,6 +11,7 @@ function CustomLink({ children, to, ...props }) {
                 style={{
                     paddingBottom: match ? 15 : 15,
                     borderBottomColor: match ? "blue" : "gray",
+                    hover: match ? "blue" : "black",
                     color: match ? "blue" : "black"
                 }}
                 to={to}
