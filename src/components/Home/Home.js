@@ -1,6 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Reveiw from '../Reveiw/Reveiw';
 
 const Home = () => {
+
+    const [reveiws, setReveiws] = useState([]);
+
+    useEffect(() => {
+        fetch('reveiws.json')
+            .then(res => res.json())
+            .then(data => setReveiws(data))
+    }, [])
     return (
         <div className='w-5/6 mx-auto text-center'>
             <div className='flex flex-wrap items-center justify-between h-screen'>
@@ -15,7 +24,13 @@ const Home = () => {
                 </div>
             </div>
             <div className='py-32'>
-                <h2 className='font-serif font-bold capitalize text-4xl'>customer reviews (3)</h2>
+                <h2 className='font-serif font-bold capitalize text-4xl'>customer reviews (3/{reveiws.length})</h2>
+                {
+                    reveiws.slice(0, 3).map(reveiw => <Reveiw
+                        key={reveiw.id}
+                        reveiw={reveiw}
+                    ></Reveiw>)
+                }
 
                 <button className='bg-indigo-800 hover:bg-indigo-900 text-white font-serif uppercase font-bold px-3 py-2 rounded mt-20'>see all reviews</button>
             </div>
