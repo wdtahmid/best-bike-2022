@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Tara Mills",
+        "img": "https://randomuser.me/api/portraits/women/82.jpg",
+        "review": "This is nice one i've seen ever many motor bike!",
+        "rating": "4 start"
+    },
+    {
+        "name": "Evan Miller",
+        "img": "https://randomuser.me/api/portraits/men/57.jpg",
+        "review": "This is nice one i've seen ever many motor bike!",
+        "rating": "4.5 start"
+    },
+    {
+        "name": "Kevin Lee",
+        "img": "https://randomuser.me/api/portraits/men/53.jpg",
+        "review": "This is nice one i've seen ever many motor bike!",
+        "rating": "5 start"
+    },
+    {
+        "name": "Anna Arnold",
+        "img": "https://randomuser.me/api/portraits/women/91.jpg",
+        "review": "This is nice one i've seen ever many motor bike!",
+        "rating": "4.8 start"
+    },
+    {
+        "name": "Allen Gutierrez",
+        "img": "https://randomuser.me/api/portraits/men/4.jpg",
+        "review": "This is nice one i've seen ever many motor bike!",
+        "rating": "5 start"
+    },
+    {
+        "name": "Travis Bates",
+        "img": "https://randomuser.me/api/portraits/men/60.jpg",
+        "review": "This is nice one i've seen ever many motor bike!",
+        "rating": "4.5 start"
+    }
+]
