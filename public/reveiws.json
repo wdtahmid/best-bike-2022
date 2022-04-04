@@ -4,41 +4,41 @@
         "id": 1,
         "img": "https://randomuser.me/api/portraits/women/82.jpg",
         "reveiw": "This is nice one i've seen ever many motor bike!",
-        "rating": "4 start"
+        "rating": "4 stars"
     },
     {
         "name": "Evan Miller",
         "id": 2,
         "img": "https://randomuser.me/api/portraits/men/57.jpg",
         "reveiw": "This is nice one i've seen ever many motor bike!",
-        "rating": "4.5 start"
+        "rating": "4.5 stars"
     },
     {
         "name": "Kevin Lee",
         "id": 3,
         "img": "https://randomuser.me/api/portraits/men/53.jpg",
         "reveiw": "This is nice one i've seen ever many motor bike!",
-        "rating": "5 start"
+        "rating": "5 stars"
     },
     {
         "name": "Anna Arnold",
         "id": 4,
         "img": "https://randomuser.me/api/portraits/women/91.jpg",
         "reveiw": "This is nice one i've seen ever many motor bike!",
-        "rating": "4.8 start"
+        "rating": "4.8 stars"
     },
     {
         "name": "Allen Gutierrez",
         "id": 5,
         "img": "https://randomuser.me/api/portraits/men/4.jpg",
         "reveiw": "This is nice one i've seen ever many motor bike!",
-        "rating": "5 start"
+        "rating": "5 stars"
     },
     {
         "name": "Travis Bates",
         "id": 6,
         "img": "https://randomuser.me/api/portraits/men/60.jpg",
         "reveiw": "This is nice one i've seen ever many motor bike!",
-        "rating": "4.5 start"
+        "rating": "4.5 stars"
     }
 ]

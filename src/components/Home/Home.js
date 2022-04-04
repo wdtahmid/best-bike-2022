@@ -1,15 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import useReveiws from '../hooks/useReveiws';
 import Reveiw from '../Reveiw/Reveiw';
 
 const Home = () => {
 
-    const [reveiws, setReveiws] = useState([]);
+    const [reveiws, setReveiws] = useReveiws();
 
-    useEffect(() => {
-        fetch('reveiws.json')
-            .then(res => res.json())
-            .then(data => setReveiws(data))
-    }, [])
+    const naviagte = useNavigate();
+    const seeAllReveiws = () => {
+        const path = <Link to='/reviews'></Link>
+        naviagte(path)
+    };
     return (
         <div className='w-5/6 mx-auto text-center'>
             <div className='flex flex-wrap items-center justify-between h-screen'>
@@ -31,8 +33,7 @@ const Home = () => {
                         reveiw={reveiw}
                     ></Reveiw>)
                 }
-
-                <button className='bg-indigo-800 hover:bg-indigo-900 text-white font-serif uppercase font-bold px-3 py-2 rounded mt-20'>see all reviews</button>
+                <Link to='/reviews'> <button onClick={seeAllReveiws} className='bg-indigo-800 hover:bg-indigo-900 text-white font-serif uppercase font-bold px-3 py-2 rounded mt-20'>See All Reveiws</button></Link>
             </div>
         </div>
     );
