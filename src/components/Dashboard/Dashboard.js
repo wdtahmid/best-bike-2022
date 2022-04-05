@@ -9,11 +9,14 @@ import PIE_CHART from './PIE_CHART/PIE_CHART';
 
 const Dashboard = () => {
     return (
-        <div className='w-full py-2 md:p-0 md:w-5/6 mx-auto flex flex-wrap justify-between gap-y-10 my-28'>
-            <LINE_CHART></LINE_CHART>
-            <AREA_CHART></AREA_CHART>
-            <PIE_CHART></PIE_CHART>
-            <BAR_CHART></BAR_CHART>
+        <div className='mt-20'>
+            <h2 className='text-6xl uppercase font-bolder text-center mb-20'>Dashboard</h2>
+            <div className='w-full py-2 md:p-0 md:w-5/6 mx-auto flex flex-wrap justify-between gap-y-10 my-28'>
+                <LINE_CHART></LINE_CHART>
+                <AREA_CHART></AREA_CHART>
+                <PIE_CHART></PIE_CHART>
+                <BAR_CHART></BAR_CHART>
+            </div>
         </div>
     );
 };
