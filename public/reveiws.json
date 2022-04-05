@@ -3,42 +3,42 @@
         "name": "Tara Mills",
         "id": 1,
         "img": "https://randomuser.me/api/portraits/women/82.jpg",
-        "reveiw": "This is nice one i've seen ever many motor bike!",
+        "reveiw": "As I got up to speed during my first session, I took the advice of EBR test rider and 1190RX-mounted AMA SuperBike racer Cory West and set the traction control to setting 14 (of 21) on the full-color thin-film transistor LCD screen. The system relies on a rear-wheel-speed sensor and applies both reactionary and predictive intervention based on various data fed to the ECU.",
         "rating": "4 stars"
     },
     {
         "name": "Evan Miller",
         "id": 2,
         "img": "https://randomuser.me/api/portraits/men/57.jpg",
-        "reveiw": "This is nice one i've seen ever many motor bike!",
+        "reveiw": "My first opportunity to ride the new EBR 1190RX came at Jennings GP’s motorcycle-only racetrack in northern Florida. Early morning rain left the tarmac drenched, but that provided a great opportunity to test EBR’s in-house-developed fuel injection. The EFI utilizes twin 61mm Dell’Orto throttle bodies, each with a conventional injector near the intake valve and a secondary shower unit. ",
         "rating": "4.5 stars"
     },
     {
         "name": "Kevin Lee",
         "id": 3,
         "img": "https://randomuser.me/api/portraits/men/53.jpg",
-        "reveiw": "This is nice one i've seen ever many motor bike!",
+        "reveiw": "The previous RS suffered from poor fueling when ridden around town and snatchy delivery at lower rpm. Also, when opening the throttle from a closed position midcorner, the RS felt a little like it had flatslide racing carbs, giving a bit of a cough and snort before the show got started. And let’s not even bring up the horrible mapping of the original Buell 1125R. That is all a distant memory. Throttle response is absolutely excellent and predictable.",
         "rating": "4.5 stars"
     },
     {
         "name": "Anna Arnold",
         "id": 4,
         "img": "https://randomuser.me/api/portraits/women/91.jpg",
-        "reveiw": "This is nice one i've seen ever many motor bike!",
+        "reveiw": "On former Buell Motor Company bikes, we complained about the unique perimeter-style brakes. At Jennings—which doesn’t have a super hard braking zone—I was happy with the power provided by the setup, although I personally would like a bit more initial bite. I also need to credit the excellent F.C.C. vacuum-operated slipper clutch and slick-shifting transmission for making corner entries and last-second downshifts drama-free.",
         "rating": "4.8 stars"
     },
     {
         "name": "Allen Gutierrez",
         "id": 5,
         "img": "https://randomuser.me/api/portraits/men/4.jpg",
-        "reveiw": "This is nice one i've seen ever many motor bike!",
+        "reveiw": "Awesome job Mr.Buell and a BIG FU to Harley Davidson. I hope the bike is a big success. It's a shame that a an engineer that originally envisioned, designed and built an all american sportbike has to turn to an Indian company to finally realize his dream. Regardless, thank you HERO Motors and much success with your collaboration in this endevour.",
         "rating": "5 stars"
     },
     {
         "name": "Travis Bates",
         "id": 6,
         "img": "https://randomuser.me/api/portraits/men/60.jpg",
-        "reveiw": "This is nice one i've seen ever many motor bike!",
+        "reveiw": "At the end of the day, in an effort to get a taste for the engine’s flexibility, I did a full lap in sixth and then fifth gear. Through the track’s tighter sections, the bike struggled a bit in sixth, while the lap in fifth proved that the engine could cleanly pull from revs as low as 2,500 rpm without protest.",
         "rating": "4.5 stars"
     }
 ]
