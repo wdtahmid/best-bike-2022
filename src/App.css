@@ -19,9 +19,9 @@
   border-bottom: 2px solid gray;
 }
 
-@media all and (max-width: 502px) {
+@media all and (max-width: 550px) {
   .recharts-surface {
-    min-width: 300px;
+    max-width: 300px;
     margin: 0 auto;
   }
 }
